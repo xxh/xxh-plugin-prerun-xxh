@@ -1,0 +1,4 @@
+#!/bin/bash
+
+CDIR="$(cd "$(dirname "$0")" && pwd)"
+$CDIR/bin/xxh +lh $XXH_HOME "$@"

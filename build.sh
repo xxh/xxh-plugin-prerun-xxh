@@ -39,5 +39,8 @@ else
 fi
 
 tar -xzf $tarname
-
 rm $tarname
+mkdir bin
+mv xxh bin/
+
+cp $CDIR/xxh ./
