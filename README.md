@@ -12,5 +12,4 @@ xxh +I xxh-plugin-prerun-xxh
 From any repo:
 ```
 xxh +I xxh-plugin-prerun-xxh+git+https://github.com/xxh/xxh-plugin-prerun-xxh
-```    
 ```
