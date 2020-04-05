@@ -1,4 +1,8 @@
-This prerun xxh plugin allows to user xxh after xxh.
+This prerun xxh plugin allows to use xxh after xxh:
+```
+xxh myhost +if
+myhost> xxh --help 
+```
 
 ## Install
 From xxh repo:
@@ -9,7 +13,4 @@ From any repo:
 ```
 xxh +I xxh-plugin-prerun-xxh+git+https://github.com/xxh/xxh-plugin-prerun-xxh
 ```    
-Connect:
-```
-xxh yourhost +if
 ```
