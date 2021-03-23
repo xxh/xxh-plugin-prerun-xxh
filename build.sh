@@ -23,7 +23,7 @@ done
 
 cd $build_dir
 
-url="https://github.com/xxh/xxh-portable/raw/master/result/xxh-portable-musl-alpine-Linux-x86_64.tar.gz"
+url="https://github.com/xxh/xxh/releases/download/0.8.7/xxh-portable-musl-alpine-Linux-x86_64.tar.gz"
 tarname=`basename $url`
 
 [ $QUIET ] && arg_q='-q' || arg_q=''
